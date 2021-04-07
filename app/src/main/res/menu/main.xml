@@ -10,6 +10,7 @@
         android:id="@+id/action_high_contrast"
         android:checkable="false"
         android:enabled="true"
+        android:onClick="@style/"
         android:orderInCategory="200"
         android:title="@string/action_high_contrast"
         app:showAsAction="never" />

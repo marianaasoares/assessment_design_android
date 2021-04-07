@@ -24,6 +24,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:gravity="center_vertical|center_horizontal"
         android:text="Enterprise Design Thinking Practitioner"
         android:textStyle="bold" />
 
@@ -34,6 +35,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:gravity="center_vertical|center_horizontal"
         android:text="IBM Agile Explorer"
         android:textStyle="bold" />
 
@@ -41,9 +43,10 @@
         android:id="@+id/curso3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:gravity="center_vertical|center_horizontal"
         android:text="Gerência de Projetos - Vale"
         android:textStyle="bold" />
 
@@ -54,6 +57,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:gravity="center_vertical|center_horizontal"
         android:text="Introdução ao SAP"
         android:textStyle="bold" />
 
