@@ -10,6 +10,7 @@
 
     <TextView
         android:id="@+id/text_gallery"
+        android:gravity="center_vertical|center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,28 +21,62 @@
 
     <TextView
         android:id="@+id/fulllab"
+        android:gravity="center_vertical|center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="5dp"
         android:text="Grupo Fulllab - 02/2019 até 05/2019 - Estagiária em Gerência de Projetos "
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/fulllab_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="Auxílio em confecção de documentações, atas de reunião, organização e alocação de recursos em projetos de entrega contínua. Comunicação constante com stakeholders e usuário final. Acompanhamento de projetos de gestão de mudanças de ponta-a-ponta."
+        />
+
+
+    <TextView
         android:id="@+id/vale"
+        android:gravity="center_vertical|center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="5dp"
         android:text="Vale S.A. - 12/06/19 - 31/12/2020- Innovation IT Intern "
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/vale_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="Trabalho diretamente ao lado de gerente de projetos, auxiliando em todo o processo de construção de projetos de TI na área de suprimentos da Vale, em âmbito nacional e internacional. Com bastante foco em projetos ligados ao SAP e metodologias ágeis."
+        />
+
+    <TextView
         android:id="@+id/ibm"
+        android:gravity="center_vertical|center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="IBM - 01/01/20 - Atualmente - Estagiária de desenvolvimento  "
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ibm_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="Atuo na área de desenvolvimento front-end em projetos voltados para o gerenciamento de vendas dos produtos da companhia"
+        />
 
 </LinearLayout>
